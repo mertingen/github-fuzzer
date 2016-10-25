@@ -7,7 +7,7 @@
 
 Welcome to my Python2.7 project for Github Usernames!
 
-This checkt the Github usernames available.
+This check the Github usernames available.
 
 ## Running the script
 
