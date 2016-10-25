@@ -12,9 +12,9 @@ description = """
 """
 
 parser = argparse.ArgumentParser("github-fuzzer", description)
-parser.add_argument("--wordlist", "-w", help="wordlist dosya adresi, format:/home/user/wordlist.txt", required=True)
-parser.add_argument("--url", "-u", help="url, format: https://www.github.com/USERNAME", required=True)
-parser.add_argument("--status", help="bakılacak http kodu", default="404")
+parser.add_argument("--wordlist", "-w", help="wordlist dosya adresi, format:/home/user/wordlist.txt")
+parser.add_argument("--url", "-u", help="url, format: https://www.github.com/USERNAME")
+parser.add_argument("--status", "-s", help="bakılacak http kodu", default="404")
 args = parser.parse_args()
 
 def checking():
